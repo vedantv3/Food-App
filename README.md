@@ -17,3 +17,7 @@
 - Written by facebook
 - useState()->super powerful react varible
 - useEffect()->
+
+# 2 types of Routing in web apps
+- client side routing
+- server side routing
