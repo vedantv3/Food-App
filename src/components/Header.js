@@ -4,7 +4,6 @@ import { Link } from "react-router-dom";
 const Header = () => {
     const [btnNameReact, setBtnNameReact] = useState("Login");
     useEffect(() => {
-        console.log("used effect called");
         //if no dependency array =>useEffect is called after every render of that component
         //if dependency array is empty=[]=>useEffect is called on initail render
         //if dependency array is [btnNameReact]=>called everytime btnNameReact is updated

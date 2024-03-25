@@ -12,6 +12,7 @@ const RestaurantMenu = () => {
     const fetchMenu = async () => {
         const data = await fetch(SWIGGY_URL);
         const json = await data.json();
+        console.log(json);
         setResInfo(json?.data);
     }
     if(resInfo===null) return <Shimmer />;
